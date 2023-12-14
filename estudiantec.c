@@ -5,4 +5,6 @@
 
 void mostrarEstudiante2 (const struct Estudiante* estudiante) {
     printf("Nombre: %s\n", estudiante->nombre);
+    printf("Edad: %d\n", estudiante->edad);
+    printf("Promedio: %f\n", estudiante->promedio);
 }
