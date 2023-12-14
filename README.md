@@ -3,7 +3,7 @@ ExamenTema2
 https://github.com/NicolodeL/ExamenTema2.git
 
 PARTE 1
-¿Cuál es la principal diferencia entre la estructura básica del programa en C y C++?
+¿Cuál es la principal diferencia entre la estructura básica del programa en C y C++? \n
 a) C utiliza cout y cin mientras que C++ utiliza printf y scanf.
 ¿Qué es un espacio de nombres en C++?
 a) Una característica que permite agrupar entidades como clases, objetos y funciones bajo un nombre.
