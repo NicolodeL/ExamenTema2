@@ -2,10 +2,10 @@
 
 #ifndef EJERCICIOSPROGRAMACIONESTRUCTURADA_ESTUDIANTEC_H
 #define EJERCICIOSPROGRAMACIONESTRUCTURADA_ESTUDIANTEC_H
-struct Estudiante {
+struct Estudiante2 {
     char nombre [50];
     int edad;
     float promedio;
 };
-void mostrarEstudiante(const struct Estudiante* estudiante);
+void mostrarEstudiante(const struct Estudiante2* estudiante);
 #endif //EJERCICIOSPROGRAMACIONESTRUCTURADA_ESTUDIANTEC_H
