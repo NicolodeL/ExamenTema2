@@ -1,6 +1,6 @@
 #include "estudiante.h"
 #include <cstdio>
-#include <estudiantec.h>
+#include "estudiantec.h"
 
 
 int main(){
@@ -10,7 +10,9 @@ int main(){
     mostrarEstudiante(estudiante1);
 
     struct Estudiante2 estudiante0;
-    snprintf(estudiante1.nombre, sizeof(estudiante1.nombre), "Juan Perez");
+    snprintf(estudiante1.nombre, sizeof(estudiante1.nombre), "Juanjo");
+    estudiante1.edad = 20;
+    estudiante1.promedio = 8.5;
 
     return 0;
 }
