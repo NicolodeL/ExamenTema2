@@ -1,10 +1,13 @@
 # ninja log v5
+1	240	7242587411919377	build.ninja	2be06026d9e46c38
 3	98	7242574795071247	CMakeFiles/main.dir/main.cpp.obj	cd7338375b207bc4
-2	232	7242582852638695	build.ninja	2be06026d9e46c38
+22	132	7242584279341764	CMakeFiles/main.dir/main.c.obj	22b9bec5376892c5
 13	370	7242565003620200	CMakeFiles/main.dir/estudiante.cpp.obj	7d931f8ee0933213
-5	95	7242576311743321	CMakeFiles/main.dir/main.c.obj	22b9bec5376892c5
-3	89	7242565218705980	CMakeFiles/main.dir/estudiantec.c.obj	1c5a2954fc49085a
-104	223	7242570556340310	main.exe	b63ba37c9d10015e
 11	103	7242576799473758	CMakeFiles/mainc.dir/estudiantec.c.obj	f3fa31126dd3cb9a
+104	223	7242570556340310	main.exe	b63ba37c9d10015e
+12	119	7242584279200411	CMakeFiles/main.dir/estudiantec.c.obj	1c5a2954fc49085a
 2	92	7242577115874596	CMakeFiles/mainc.dir/main.c.obj	9d8954a55b9f4862
+11	461	7242585618877458	CMakeFiles/main.dir/asistencia.cpp.obj	7a62d92228396aee
 93	201	7242577116892015	mainc.exe	e3d2d10ad2547c6
+13	397	7242587595297160	CMakeFiles/main.dir/estudiante.cpp.obj	7d931f8ee0933213
+13	384	7242587768772862	CMakeFiles/main.dir/estudiante.cpp.obj	7d931f8ee0933213
