@@ -1,16 +1,18 @@
 
-
-#ifndef EJERCICIOSPROGRAMACIONESTRUCTURADA_ESTUDIANTE_H
-#define EJERCICIOSPROGRAMACIONESTRUCTURADA_ESTUDIANTE_H
-
+#ifndef ESTUDIANTE_H
+#define ESTUDIANTE_H
 
 struct Estudiante {
-    char nombre [50];
+    char nombre[50];
     int edad;
     float promedio;
+    char** materias;
+    int numMaterias;
 };
 
-void mostrarEstudiante (Estudiante estudiante);
+void agregarMateria(struct Estudiante* estudiante, const char* materia);
+void eliminarMateria(struct Estudiante* estudiante, const char* materia);
+void mostrarMaterias(const struct Estudiante* estudiante);
+void liberarMaterias(struct Estudiante* estudiante);
 
-
-#endif //EJERCICIOSPROGRAMACIONESTRUCTURADA_ESTUDIANTE_H
+#endif // ESTUDIANTE_H
