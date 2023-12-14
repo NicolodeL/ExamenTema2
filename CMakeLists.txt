@@ -8,4 +8,10 @@ add_executable(main "main.cpp"
         estudiante.cpp
         estudiantec.h
         estudiantec.c
+        main.c
 )
+
+add_executable(mainc "main.c"
+        estudiantec.h
+        estudiantec.c
+        main.c)

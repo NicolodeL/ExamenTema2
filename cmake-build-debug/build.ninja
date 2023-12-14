@@ -67,6 +67,12 @@ build CMakeFiles/main.dir/estudiantec.c.obj: C_COMPILER__main_unscanned_Debug C$
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir
 
+build CMakeFiles/main.dir/main.c.obj: C_COMPILER__main_unscanned_Debug C$:/Users/nicol/OneDrive/Documents/GitHub/ExamenTema2/main.c || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\main.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main
@@ -75,7 +81,7 @@ build CMakeFiles/main.dir/estudiantec.c.obj: C_COMPILER__main_unscanned_Debug C$
 #############################################
 # Link the executable main.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj CMakeFiles/main.dir/estudiante.cpp.obj CMakeFiles/main.dir/estudiantec.c.obj
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj CMakeFiles/main.dir/estudiante.cpp.obj CMakeFiles/main.dir/estudiantec.c.obj CMakeFiles/main.dir/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir
@@ -84,6 +90,45 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
   TARGET_FILE = main.exe
   TARGET_IMPLIB = libmain.dll.a
   TARGET_PDB = main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target mainc
+
+
+#############################################
+# Order-only phony target for mainc
+
+build cmake_object_order_depends_target_mainc: phony || CMakeFiles/mainc.dir
+
+build CMakeFiles/mainc.dir/main.c.obj: C_COMPILER__mainc_unscanned_Debug C$:/Users/nicol/OneDrive/Documents/GitHub/ExamenTema2/main.c || cmake_object_order_depends_target_mainc
+  DEP_FILE = CMakeFiles\mainc.dir\main.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\mainc.dir
+  OBJECT_FILE_DIR = CMakeFiles\mainc.dir
+
+build CMakeFiles/mainc.dir/estudiantec.c.obj: C_COMPILER__mainc_unscanned_Debug C$:/Users/nicol/OneDrive/Documents/GitHub/ExamenTema2/estudiantec.c || cmake_object_order_depends_target_mainc
+  DEP_FILE = CMakeFiles\mainc.dir\estudiantec.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\mainc.dir
+  OBJECT_FILE_DIR = CMakeFiles\mainc.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mainc
+
+
+#############################################
+# Link the executable mainc.exe
+
+build mainc.exe: C_EXECUTABLE_LINKER__mainc_Debug CMakeFiles/mainc.dir/main.c.obj CMakeFiles/mainc.dir/estudiantec.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\mainc.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = mainc.exe
+  TARGET_IMPLIB = libmainc.dll.a
+  TARGET_PDB = mainc.exe.dbg
 
 
 #############################################
@@ -113,6 +158,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build main: phony main.exe
 
+build mainc: phony mainc.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -121,7 +168,7 @@ build main: phony main.exe
 #############################################
 # Folder: C:/Users/nicol/OneDrive/Documents/GitHub/ExamenTema2/cmake-build-debug
 
-build all: phony main.exe
+build all: phony main.exe mainc.exe
 
 # =============================================================================
 # Built-in targets

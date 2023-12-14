@@ -7,5 +7,5 @@ struct Estudiante2 {
     int edad;
     float promedio;
 };
-void mostrarEstudiante(const struct Estudiante2* estudiante);
+void mostrarEstudiante2(const struct Estudiante2* estudiante);
 #endif //EJERCICIOSPROGRAMACIONESTRUCTURADA_ESTUDIANTEC_H

@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Ejerciciosprogramacionestructurada",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-1a2586379169cd750f30.json",
+					"jsonFile" : "target-main-Debug-f8b4f2e3462bda587437.json",
 					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mainc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mainc-Debug-bf443d46a484f5853fe1.json",
+					"name" : "mainc",
 					"projectIndex" : 0
 				}
 			]
