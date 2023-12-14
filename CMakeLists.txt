@@ -3,9 +3,10 @@ project(Ejerciciosprogramacionestructurada)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(main "main.cpp"
+add_executable(main "main.c"
         estudiante.h
         estudiante.cpp
         estudiantec.h
         estudiantec.c
+
 )

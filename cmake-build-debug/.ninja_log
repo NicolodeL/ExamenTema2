@@ -1,5 +1,7 @@
 # ninja log v5
-4	101	7242567501081799	CMakeFiles/main.dir/main.cpp.obj	cd7338375b207bc4
-13	370	7242565003620200	CMakeFiles/main.dir/estudiante.cpp.obj	7d931f8ee0933213
+5	84	7242594605725514	CMakeFiles/main.dir/main.cpp.obj	cd7338375b207bc4
+17	380	7242594206866176	CMakeFiles/main.dir/estudiante.cpp.obj	7d931f8ee0933213
 102	218	7242567502207787	main.exe	b63ba37c9d10015e
-3	89	7242565218705980	CMakeFiles/main.dir/estudiantec.c.obj	1c5a2954fc49085a
+10	121	7242594204268871	CMakeFiles/main.dir/estudiantec.c.obj	1c5a2954fc49085a
+3	81	7242596382575463	CMakeFiles/main.dir/main.c.obj	22b9bec5376892c5
+82	199	7242596383693593	main.exe	8eb058f901591c9e
