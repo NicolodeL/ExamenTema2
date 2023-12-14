@@ -10,5 +10,7 @@ struct Estudiante {
     float promedio;
 };
 
+void mostrarEstudiante (Estudiante estudiante);
+
 
 #endif //EJERCICIOSPROGRAMACIONESTRUCTURADA_ESTUDIANTE_H

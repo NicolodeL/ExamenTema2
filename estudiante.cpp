@@ -1,5 +1,11 @@
-//
-// Created by nicol on 14/12/2023.
-//
+#include <iostream>
+#include <string>
+#include <vector>
 
 #include "estudiante.h"
+
+void mostrarEstudiante (const Estudiante& estudiante) {
+    std::cout << "Nombre: " << estudiante.nombre << std::endl;
+    std::cout << "Edad: " << estudiante.edad << std::endl;
+    std::cout << "Promedio: " << estudiante.promedio << std::endl;
+}
