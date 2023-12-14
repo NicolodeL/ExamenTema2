@@ -14,6 +14,9 @@ b) Permiten la creación de funciones y clases genéricas, es decir, que pueden 
 
 PARTE 2
 
+Estructura del Estudiante:
+Comparativa mientras en c++ tuve que utilizar std::cout (cout << "Nombre: " << estudiante.nombre << endl;) para definir la funcion que mostraría la estucutra  en c usé printf (printf("Nombre: %s\n", estudiante->nombre);)
+
 
 
 
