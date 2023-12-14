@@ -1,21 +1,33 @@
+#ifndef ASISTENCIA_H
+#define ASISTENCIA_H
+
+#include "estudiante.h"
 #include "asistencia.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <stdio.h>
 
-// Implementación del constructor de Estudiante
-Estudiante::Estudiante(const std::string& nombre, int edad, float promedio)
-        : nombre(nombre), edad(edad), promedio(promedio) {}
 
-// Función para registrar la asistencia
-void Estudiante::registrarAsistencia(const std::string& fecha, const std::string& materia, const std::string& estado) {
-    Asistencia nuevaAsistencia = {fecha, materia, estado};
-    asistencias.push_back(nuevaAsistencia);
-}
+struct Asistencia {
+    std::string fecha;
+    std::string materia;
+    std::string estado;
+};
 
-// Función para mostrar la asistencia del estudiante
-void Estudiante::mostrarAsistencia() {
-    std::cout << "Asistencia para " << nombre << ":" << std::endl;
+class Estudiante {
+public:
+    Estudiante(const std::string& nombre, int edad, float promedio);
 
-    for (const auto& asistencia : asistencias) {
-        std::cout << "Fecha: " << asistencia.fecha << ", Materia: " << asistencia.materia
-                  << ", Estado: " << asistencia.estado << std::endl;
-    }
-}
+    // Funciones para la asistencia
+    void registrarAsistencia(const std::string& fecha, const std::string& materia, const std::string& estado);
+    void mostrarAsistencia();
+
+private:
+    std::string nombre;
+    int edad;
+    float promedio;
+    std::vector<Asistencia> asistencias;
+};
+
+#endif // ASISTENCIA_H

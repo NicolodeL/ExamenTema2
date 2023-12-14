@@ -14,6 +14,7 @@ struct Estudiante {
     void mostrarAsistencia();
 };
 
+
 void mostrarEstudiante (Estudiante estudiante);
 
 
